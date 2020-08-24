@@ -11,7 +11,7 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/autotim/laravel-framework"
+            "url": "https://github.com/autotim/framework"
         }
     ],
     "require": {
