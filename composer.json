@@ -1,10 +1,11 @@
 {
-    "name": "laravel/laravel",
+    "name": "autotim/laravel-app",
     "type": "project",
-    "description": "The Laravel Framework.",
+    "description": "Laravel Start-Up App",
     "keywords": [
         "framework",
-        "laravel"
+        "laravel",
+        "start-up"
     ],
     "license": "MIT",
     "require": {
@@ -12,7 +13,7 @@
         "fideloper/proxy": "^4.2",
         "fruitcake/laravel-cors": "^2.0",
         "guzzlehttp/guzzle": "^6.3",
-        "laravel/framework": "^7.24",
+        "autotim/framework": "^7.25",
         "laravel/tinker": "^2.0"
     },
     "require-dev": {
