@@ -13,7 +13,7 @@
         "fideloper/proxy": "^4.2",
         "fruitcake/laravel-cors": "^2.0",
         "guzzlehttp/guzzle": "^6.3",
-        "autotim/laravel-framework": "^7.25.0",
+        "autotim/laravel-framework": "7.x-dev",
         "laravel/tinker": "^2.0"
     },
     "require-dev": {
