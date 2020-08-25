@@ -57,7 +57,7 @@
         "post-root-package-install": [
             "@php -r \"file_exists('.env') || copy('.env.example', '.env');\"",
             "@composer clearcache",
-            "@composer config repositories vcs https://github.com/autotim/framework",
+            "@composer config repositories.0 vcs https://github.com/autotim/framework",
             "@composer update laravel/framework -n"
         ],
         "post-create-project-cmd": [
