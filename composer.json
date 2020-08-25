@@ -8,12 +8,6 @@
         "start-up"
     ],
     "license": "MIT",
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/autotim/framework"
-        }
-    ],
     "require": {
         "php": "^7.2.5",
         "fideloper/proxy": "^4.2",
@@ -64,7 +58,9 @@
             "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
         ],
         "post-create-project-cmd": [
-            "@php artisan key:generate --ansi"
+            "@php artisan key:generate --ansi",
+            "composer config repositories.repo-name vcs https://github.com/autotim/framework",
+            "composer update laravel/framework"
         ]
     }
 }
