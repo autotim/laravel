@@ -57,13 +57,13 @@
         "post-root-package-install": [
             "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
         ],
-        "post-create-project-cmd": [
-            "@php artisan key:generate --ansi"
-        ],
-        "update-framework": [
+        "post-update-framework": [
             "composer clearcache",
             "composer config repositories.repo-name vcs https://github.com/autotim/framework",
             "composer update laravel/framework"
+        ],
+        "post-create-project-cmd": [
+            "@php artisan key:generate --ansi"
         ]
     }
 }
